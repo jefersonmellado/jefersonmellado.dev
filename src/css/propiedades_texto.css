@@ -1,0 +1,46 @@
+body {
+    font-family: 'devjefersonmellado',Tahoma, sans-serif;
+}
+
+.titulo {
+    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+h2.subtitulo {
+    color: slateblue;
+}
+
+p {
+    color: rgb(117, 19, 19);
+    /* TAMAÑO DEL TEXTO
+    las propiedades predeterminadas dependen de como estén configuradas las tipografías
+    */
+    font-size:large;
+    /* ANCHO DEL TEXTO */
+    font-weight: 400;
+    /* ESTILO DEL TEXTO */
+    font-style: italic;
+
+    /* espacio entre lineas */
+    line-height: 5;
+
+    /* espacio entre letras */
+    letter-spacing: 10px;
+    text-align: justify;
+    /* subrayado abajo arriba y en medio */
+    /* text-decoration: none; */
+    /* propiedades todo en mayusculas minusculas o la primera de cada palabra en mayusculas */
+    text-transform: uppercase;
+}   
+
+p span {
+    text-decoration: underline;
+}
+
+
+

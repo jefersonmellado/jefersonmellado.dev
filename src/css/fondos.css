@@ -1,0 +1,21 @@
+body{
+    font-family: devjefersonmellado;
+    background: #f64;
+}
+
+.box {
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    background-image: url("/src/img/1689478749071.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.gradiente {
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(#666, transparent );
+}

@@ -1,0 +1,13 @@
+body {
+    color: antiquewhite;
+    background: url("../img/cover.jpg") fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: devjefersonmellado;
+}
+
+.titular {
+    text-align: center;
+    background: rgb(255, 145, 0);
+}

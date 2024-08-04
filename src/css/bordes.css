@@ -1,0 +1,19 @@
+div {
+    height: 400px;
+    width: 500px;
+    background: yellowgreen;
+}
+
+div {
+    /* border-width: 10px;
+    border-color: lightgreen;
+    border-style: solid; */
+    border: 10px solid yellow;
+    border-radius: 50% 10%;
+    align-content: center;
+}
+
+.puntito {
+    border: 5px solid yellow;
+   
+}

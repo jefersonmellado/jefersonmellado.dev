@@ -1,0 +1,29 @@
+/* nos permite configurar un nuevo valor para una nueva propiedad*/
+/*
+El navegador carga más rápido la fuente si sabe de  antemano  en que formato está
+*/
+@font-face {
+    font-family: 'devjefersonmellado';
+    src: url("../fonts/Poppins-ExtraLight.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'devjefersonmellado';
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'devjefersonmellado';
+    src: url("../fonts/Poppins-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'devjefersonmellado';
+    src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+    font-weight: 900;
+}
+
