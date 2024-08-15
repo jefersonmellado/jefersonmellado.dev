@@ -1,4 +1,4 @@
-# Portfolio Web de [Tu Nombre]
+# Portfolio Web de Jeferson Mellado Traipe
 
 ## 📌 Descripción
 Bienvenido a mi portfolio web personal. Aquí encontrarás una muestra de mis proyectos, habilidades y experiencia como Full Stack Developer.
@@ -15,7 +15,7 @@ Bienvenido a mi portfolio web personal. Aquí encontrarás una muestra de mis pr
 
 ## 📂 Estructura del Proyecto
 ```
-portfolio-web/
+jefersonmellado.dev/
 │
 ├── index.html
 │
@@ -33,31 +33,41 @@ portfolio-web/
 
 ## 📚 Secciones Principales
 ### 🏠 Inicio
-Breve introducción y destacados
+
+Bienvenido a mi portfolio web, un espacio digital donde confluyen mi pasión por el desarrollo web y mi experiencia profesional. Como desarrollador full-stack especializado en tecnologías JavaScript modernas, este sitio sirve como escaparate de mis habilidades, proyectos y trayectoria en el mundo del desarrollo de software.
+
+Este portfolio no es solo una colección de proyectos, sino una representación de mi viaje en el mundo tech. Desde aplicaciones web responsive hasta soluciones de e-commerce innovadoras, cada proyecto refleja mi compromiso con el código limpio, la usabilidad y las mejores prácticas de desarrollo.
+
+#### ¿Qué encontrarás aquí?
+
+- **Proyectos Destacados**: Una selección curada de mis mejores trabajos, con descripciones detalladas y enlaces a demos en vivo.
+- **Stack Tecnológico**: Un vistazo a las herramientas y tecnologías que domino, desde React y Node.js hasta MongoDB y AWS.
+- **Sobre Mí**: Un resumen de mi trayectoria profesional, filosofía de trabajo y objetivos a futuro en el campo del desarrollo.
+- **Información de Contacto**: Formas de conectar conmigo para oportunidades profesionales, colaboraciones o simplemente para intercambiar ideas.
+
+Este portfolio es más que una simple presentación; es una invitación a explorar, aprender y, quizás, colaborar en futuros proyectos emocionantes. ¡Bienvenido a mi mundo digital!
 
 ### 👨‍💻 Sobre Mí
 #### Educación
-- Grado en [Tu Carrera], [Universidad], [Año]
+- Grado en TNS Analista Programador, CFT de la Araucanía, 2023
 - Cursos y certificaciones relevantes
 
 #### Experiencia Laboral
-- [Puesto], [Empresa], [Fechas]
+- Full Stack Developer, Espex Ingeniería Ltda, Ago 2023 - Actualidad 
 - Responsabilidades y logros clave
 
 ### 💼 Proyectos
-- [Nombre del Proyecto 1]: Breve descripción y tecnologías usadas
-- [Nombre del Proyecto 2]: Breve descripción y tecnologías usadas
+- MIHUERTAFACIL.COM: Crea y gestiona tus proyectos agrícolas. React, Spring, MongoDB y PostgreSQL
 
 ### 🛠️ Habilidades
-- Lenguajes de programación: [Lista]
-- Frameworks y bibliotecas: [Lista]
-- Herramientas y tecnologías: [Lista]
+- Lenguajes de programación: PHP, Java y Javascript, SQL
+- Frameworks y bibliotecas: Laravel, Spring, React y Express
+- Herramientas y tecnologías: Ubuntu Server, Docker, MySQL, SQL Server, MongoDB, GIT y Taiga
 
-### 📝 Blog
-Artículos recientes sobre tecnología y desarrollo
+## 📬 Contacto
+[Jeferson Mellado] - [@jefersonmellado](https://www.linkedin.com/in/jeferson-mellado-traipe/) - devjefersonmellado@gmail.com
 
-### 📞 Contacto
-Formulario de contacto y información de correo electrónico
+Link del proyecto: [https://github.com/jefersonmellado/jefersonmellado.dev](https://github.com/jefersonmellado/jefersonmellado.dev)
 
 ## 🌐 Redes Sociales
 - [LinkedIn](https://www.linkedin.com/in/jeferson-mellado-traipe/)
@@ -69,7 +79,3 @@ Las sugerencias y pull requests son bienvenidas. Para cambios importantes, por f
 ## 📄 Licencia
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## 📬 Contacto
-[Jeferson Mellado] - [@jefersonmellado](https://www.linkedin.com/in/jeferson-mellado-traipe/) - devjefersonmellado@gmail.com
-
-Link del proyecto: [https://github.com/jefersonmellado/jefersonmellado.dev](https://github.com/jefersonmellado/jefersonmellado.dev)
