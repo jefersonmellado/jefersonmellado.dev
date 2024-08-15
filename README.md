@@ -1,4 +1,3 @@
-```markdown
 # Portfolio Web de [Tu Nombre]
 
 ## 📌 Descripción
@@ -74,4 +73,3 @@ Las sugerencias y pull requests son bienvenidas. Para cambios importantes, por f
 [Jeferson Mellado] - [@jefersonmellado](https://www.linkedin.com/in/jeferson-mellado-traipe/) - devjefersonmellado@gmail.com
 
 Link del proyecto: [https://github.com/jefersonmellado/jefersonmellado.dev](https://github.com/jefersonmellado/jefersonmellado.dev)
-```
