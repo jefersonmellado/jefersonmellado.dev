@@ -1,39 +1,47 @@
-const navbar = document.querySelector(".navbar");
-const navItems = navbar.querySelectorAll(".nav-item");
+// Seleccionamos todos los enlaces de navegación (desktop y mobile)
+const navItems = document.querySelectorAll(".nav-item");
 const noApplyActive = ["linkedin", "email", "download-cv"];
 const sections = document.querySelectorAll(".content-section");
 
 navItems.forEach((item) => {
-  item.addEventListener("click", () => {
-    if (!noApplyActive.find((na_item) => na_item === item.dataset.target)) {
-      window.scrollTo({
-        top: document.getElementById(item.dataset.target).offsetTop - 100,
-        behavior: "smooth",
-      });
+  item.addEventListener("click", (e) => {
+    e.preventDefault(); // Evitar comportamientos por defecto (si es enlace real)
+    
+    // Si el enlace no es uno de los que se excluyen:
+    if (!noApplyActive.includes(item.dataset.target)) {
+      const targetSection = document.getElementById(item.dataset.target);
+      if (targetSection) {
+        window.scrollTo({
+          top: targetSection.offsetTop - 100, // Ajusta el offset según tu diseño
+          behavior: "smooth"
+        });
+      }
+      
+      // Remover clase activa de todos y asignar al actual
       navItems.forEach((i) => i.classList.remove("active"));
       sections.forEach((s) => s.classList.remove("active"));
-    }
-
-    if (item.dataset.target === "inicio") {
-      navbar.classList.remove("vertical");
-      navbar.classList.add("horizontal");
-    } else {
-      navbar.classList.remove("horizontal");
-      navbar.classList.add("vertical");
-    }
-
-    if (
-      !noApplyActive.find((na_item) => na_item === item.dataset.target) &&
-      item.dataset.target !== "inicio"
-    ) {
       item.classList.add("active");
+      if (targetSection) {
+        targetSection.classList.add("active");
+      }
     }
-    const itemTarget = document.getElementById(item.dataset.target);
-    if (itemTarget) {
-      itemTarget.classList.add("active");
+    
+    // Cambiar la orientación del navbar según la sección
+    if (item.dataset.target === "inicio") {
+      document.querySelector(".navbar").classList.remove("vertical");
+      document.querySelector(".navbar").classList.add("horizontal");
+    } else {
+      document.querySelector(".navbar").classList.remove("horizontal");
+      document.querySelector(".navbar").classList.add("vertical");
+    }
+    
+    // Si se hizo clic en un enlace del menú móvil, cerrar el menú offcanvas
+    if (item.closest(".mobile-menu")) {
+      document.querySelector(".mobile-menu").classList.remove("active");
     }
   });
 });
+
 
 particlesJS("particles-js", {
   particles: {
@@ -139,3 +147,26 @@ particlesJS("particles-js", {
   },
   retina_detect: true,
 });
+
+// Funcionalidad para el menú móvil
+const menuToggle = document.querySelector(".menu-toggle");
+const mobileMenu = document.querySelector(".mobile-menu");
+const closeBtn = document.querySelector(".close-btn");
+
+// Mostrar menú
+menuToggle.addEventListener("click", () => {
+  mobileMenu.classList.add("active");
+});
+
+// Cerrar menú
+closeBtn.addEventListener("click", () => {
+  mobileMenu.classList.remove("active");
+});
+
+// Cerrar el menú al hacer clic en un enlace
+document.querySelectorAll(".mobile-menu .nav-item").forEach((item) => {
+  item.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+  });
+});
+
